@@ -1,6 +1,3 @@
-[README.md](https://github.com/user-attachments/files/30461662/README.md)
-# LASH-cluster-benchmark
-Leakage-aware sequential hybrid learning benchmark for multi-cluster load forecasting.
 # LASH: Leakage-Aware Sequential Hybrid Learning
 
 A reproducible, validation-gated selective hybrid pipeline for hourly direct 24-step electricity-demand forecasting.
