@@ -2,3 +2,10 @@
 2. notebooks/01_LASH_and_Fair_Benchmark.ipynb
 3. notebooks/02_Matched_Ablation_Router_YoY.ipynb
 4. notebooks/03_Posthoc_Statistics_XAI_Visualization.ipynb
+5. notebooks/04_SecondRound_Confirmatory.ipynb
+
+Notes:
+- Notebook 04 is the targeted second-round reviewer extension. It uses the frozen
+  dataset-local settings produced by Notebook 01 and writes only to
+  outputs/second_round_confirmatory/.
+- Generated results remain local under outputs/ and are intentionally not versioned.
