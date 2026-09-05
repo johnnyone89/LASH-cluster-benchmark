@@ -1,0 +1,14 @@
+{
+  "final_seeds": [42, 142, 242, 342, 442, 542, 642, 742, 842, 942],
+  "stochastic_refits_per_model": 10,
+  "deterministic_models": ["Seasonal-24", "Seasonal-168", "Anchor", "Ridge"],
+  "forecast_horizons": 24,
+  "bootstrap_replicates": 5000,
+  "dependence_block_hours": [24, 72, 168, 336],
+  "primary_block_hours": 168,
+  "practical_relative_nmae_threshold_pct": 1.0,
+  "primary_focal_contrasts": 6,
+  "storage_round_trip_efficiency": 0.90,
+  "test_used_for_selection": false,
+  "weather_mode": "historical_only"
+}
