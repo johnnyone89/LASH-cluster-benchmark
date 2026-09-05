@@ -1,11 +1,13 @@
 1. notebooks/00_Protocol_and_Data_Audit.ipynb
-2. notebooks/01_LASH_and_Fair_Benchmark.ipynb
+2. notebooks/01_Final_10Seed_Benchmark.ipynb
 3. notebooks/02_Matched_Ablation_Router_YoY.ipynb
 4. notebooks/03_Posthoc_Statistics_XAI_Visualization.ipynb
-5. notebooks/04_SecondRound_Confirmatory.ipynb
+5. notebooks/04_Final_Robustness_Architecture_Storage.ipynb
+6. notebooks/05_Build_Supplementary_Files.ipynb
 
 Notes:
-- Notebook 04 is the targeted second-round reviewer extension. It uses the frozen
-  dataset-local settings produced by Notebook 01 and writes only to
-  outputs/second_round_confirmatory/.
-- Generated results remain local under outputs/ and are intentionally not versioned.
+- All notebooks use paths relative to the repository root.
+- Notebook 01 performs the final all-model benchmark with ten fixed final-refit seeds for every stochastic model and one evaluation for deterministic references.
+- Notebook 04 performs the final robustness, reduced-architecture, retained-component, external-scope, and constrained storage-dispatch analyses.
+- Notebook 05 creates Supplementary Files S1 and S2 plus a ZIP bundle under outputs/supplementary/.
+- Generated results remain under outputs/ and are not versioned.
